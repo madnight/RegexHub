@@ -1,9 +1,9 @@
 # Regex
-#### Date in format dd/mm/yyyy
+#### [Date](https://regex101.com/r/lQ0lL8/40) in format dd/mm/yyyy 
 ```java
 /^([1-9]|0[1-9]|[12][0-9]|3[01])\D([1-9]|0[1-9]|1[012])\D(19[0-9][0-9]|20[0-9][0-9])$/
 ```
-#### HTML tags
+#### [HTML](https://regex101.com/r/lQ0lL8/42) tags
 ```java
 /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
 ```
