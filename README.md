@@ -1,4 +1,9 @@
 # Regex
+#### Boolean
+```java
+/^(?i)(true|false)$/
+```
+https://regex101.com/r/lQ0lL8/63
 #### Date in format dd/mm/yyyy
 ```java
 /^([1-9]|0[1-9]|[12][0-9]|3[01])\D([1-9]|0[1-9]|1[012])\D(19[0-9][0-9]|20[0-9][0-9])$/
@@ -29,6 +34,11 @@ https://regex101.com/r/lQ0lL8/43
 /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
 ```
 https://regex101.com/r/lQ0lL8/44
+#### ISBN
+```java
+/^ISBN:(\d{12}(?:\d|X))$/
+```
+https://regex101.com/r/lQ0lL8/65
 #### URL Slug
 ```java
 /^[a-z0-9-]+$/
@@ -99,5 +109,10 @@ https://regex101.com/r/lQ0lL8/50
 /[\r\n]|$/
 ```
 https://regex101.com/r/lQ0lL8/49
+#### Credit Card Number
+```java
+/^(?:4[0-9]{12}(?:[0-9]{3})?|5[1-5][0-9]{14}|(222[1-9]|22[3-9][0-9]|2[3-6][0-9]{2}|27[01][0-9]|2720)[0-9]{12}|6(?:011|5[0-9][0-9])[0-9]{12}|3[47][0-9]{13}|3(?:0[0-5]|[68][0-9])[0-9]{11}|(?:2131|1800|35\d{3})\d{11})|62[0-9]{14}$/
+```
+https://regex101.com/r/lQ0lL8/62
 ### License
 [MIT License](http://dsf.com)
