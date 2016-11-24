@@ -29,6 +29,21 @@ https://regex101.com/r/lQ0lL8/42
 /^[a-z0-9_-]{8,64}$/
 ```
 https://regex101.com/r/lQ0lL8/43
+#### MD5
+```java
+/^[a-f0-9]{32}$/
+```
+https://regex101.com/r/lQ0lL8/66
+#### ISSN
+```java
+/^\d{4}-\d{3}[\dxX]$/
+```
+https://regex101.com/r/lQ0lL8/67
+#### ISIN
+```java
+/^[A-Z]{2}([A-Z0-9]){10}$/
+```
+https://regex101.com/r/lQ0lL8/68
 #### Hex Value
 ```java
 /^#?([a-f0-9]{6}|[a-f0-9]{3})$/
