@@ -1,9 +1,14 @@
 # Regex
-#### Date in format dd/mm/yyyy 
+#### Date in format dd/mm/yyyy
 ```java
 /^([1-9]|0[1-9]|[12][0-9]|3[01])\D([1-9]|0[1-9]|1[012])\D(19[0-9][0-9]|20[0-9][0-9])$/
 ```
 https://regex101.com/r/lQ0lL8/46
+#### Date in format yyyy-MM-dd
+```java
+/^(19|20)\d\d([- /.])(0[1-9]|1[012])\2(0[1-9]|[12][0-9]|3[01])$/
+```
+https://regex101.com/r/lQ0lL8/60
 #### HTML tags
 ```java
 /^<([a-z]+)([^<]+)*(?:>(.*)<\/\1>|\s+\/>)$/
@@ -44,6 +49,16 @@ https://regex101.com/r/lQ0lL8/48
 /^(?:(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)\.){3}(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)$/
 ```
 https://regex101.com/r/lQ0lL8/47
+#### Mac Address
+```java
+/^([0-9a-fA-F][0-9a-fA-F]:){5}([0-9a-fA-F][0-9a-fA-F])$/
+```
+https://regex101.com/r/lQ0lL8/59
+#### Base64
+```java
+/^(?:[A-Za-z0-9+\/]{4})*(?:[A-Za-z0-9+\/]{2}==|[A-Za-z0-9+\/]{3}=)$/
+```
+https://regex101.com/r/lQ0lL8/61
 #### Positive non zero integer
 ```java
 /^\d+$/
